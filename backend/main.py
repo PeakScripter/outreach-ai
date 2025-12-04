@@ -11,7 +11,9 @@ app = FastAPI()
 # Enable CORS for React
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:8000","https://outreach-ai-lilac.vercel.app"],
+    allow_origin_regex=r"^https?://localhost:\d{4}$",
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
