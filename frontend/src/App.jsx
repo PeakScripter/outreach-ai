@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import { Activity, Search, Users, PhoneCall, Send, Route, Shield, Sparkles, LayoutDashboard, FileText, CheckCircle2 } from 'lucide-react';
 
 // Use environment variable for API URL so it works both locally and on Vercel
-const API_URL = import.meta.env.VITE_API_URL || "https://outreach-ai-urc4.vercel.app";
+const API_URL = import.meta.env.VITE_API_URL || "https://outreach-ai12.vercel.app";
 
 export default function App() {
   // --- EXACT LOGIC START (No Changes) ---
